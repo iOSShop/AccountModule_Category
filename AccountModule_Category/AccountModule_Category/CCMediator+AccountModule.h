@@ -1,16 +1,16 @@
 //
-//  CTMediator+AccountModule.h
+//  CCMediator+AccountModule.h
 //  AccountModule_Category
 //
 //  Created by Cai Cai on 2019/8/25.
 //  Copyright © 2019 Cai Cai. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import "CCMediator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CTMediator (AccountModule)
+@interface CCMediator (AccountModule)
 /**
  *登陆(presentViewController)
  **/

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AccountModule_Category"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AccountModule_Category."
 
   s.description  = <<-DESC
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "CTMediator"
+  s.dependency "CCMediator", :source => 'https://github.com/iOSShop/ModularizationPod.git'
 
 end

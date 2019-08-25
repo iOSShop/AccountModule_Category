@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CCMediator+AccountModule.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)clickButton:(id)sender {
+    UIViewController *viewController = [[CCMediator sharedInstance] Account_viewControllerForLogin];
+    self.view.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+}
 
 @end

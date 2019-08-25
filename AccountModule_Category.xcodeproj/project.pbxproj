@@ -13,7 +13,7 @@
 		3341AC5823129569000285C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3341AC5723129569000285C7 /* Assets.xcassets */; };
 		3341AC5B23129569000285C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3341AC5923129569000285C7 /* LaunchScreen.storyboard */; };
 		3341AC5E23129569000285C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC5D23129569000285C7 /* main.m */; };
-		3341AC672312984D000285C7 /* CTMediator+AccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC662312984D000285C7 /* CTMediator+AccountModule.m */; };
+		3341AC902312ADCF000285C7 /* CCMediator+AccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC8F2312ADCF000285C7 /* CCMediator+AccountModule.m */; };
 		5366DF7470E8FB918C159295 /* libPods-AccountModule_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E58EFCA1796F0F22DF7A63 /* libPods-AccountModule_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		3341AC5A23129569000285C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3341AC5C23129569000285C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3341AC5D23129569000285C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3341AC652312984D000285C7 /* CTMediator+AccountModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+AccountModule.h"; sourceTree = "<group>"; };
-		3341AC662312984D000285C7 /* CTMediator+AccountModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+AccountModule.m"; sourceTree = "<group>"; };
+		3341AC8E2312ADCF000285C7 /* CCMediator+AccountModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCMediator+AccountModule.h"; sourceTree = "<group>"; };
+		3341AC8F2312ADCF000285C7 /* CCMediator+AccountModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCMediator+AccountModule.m"; sourceTree = "<group>"; };
 		D6E58EFCA1796F0F22DF7A63 /* libPods-AccountModule_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountModule_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,8 +85,8 @@
 		3341AC64231295B8000285C7 /* AccountModule_Category */ = {
 			isa = PBXGroup;
 			children = (
-				3341AC652312984D000285C7 /* CTMediator+AccountModule.h */,
-				3341AC662312984D000285C7 /* CTMediator+AccountModule.m */,
+				3341AC8E2312ADCF000285C7 /* CCMediator+AccountModule.h */,
+				3341AC8F2312ADCF000285C7 /* CCMediator+AccountModule.m */,
 			);
 			path = AccountModule_Category;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				3341AC5323129568000285C7 /* ViewController.m in Sources */,
 				3341AC5E23129569000285C7 /* main.m in Sources */,
 				3341AC5023129568000285C7 /* AppDelegate.m in Sources */,
-				3341AC672312984D000285C7 /* CTMediator+AccountModule.m in Sources */,
+				3341AC902312ADCF000285C7 /* CCMediator+AccountModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

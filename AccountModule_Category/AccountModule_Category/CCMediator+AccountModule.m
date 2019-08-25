@@ -1,19 +1,19 @@
 //
-//  CTMediator+AccountModule.m
+//  CCMediator+AccountModule.m
 //  AccountModule_Category
 //
 //  Created by Cai Cai on 2019/8/25.
 //  Copyright © 2019 Cai Cai. All rights reserved.
 //
 
-#import "CTMediator+AccountModule.h"
+#import "CCMediator+AccountModule.h"
 
 NSString * const MediatorTargetAccount = @"Account";
 NSString * const MediatorActionAccountLoginViewController = @"nativeLoginViewController";
 NSString * const MediatorActionAccountLoginStatus = @"nativeLoginStatus";
 NSString * const MediatorActionAccountLoginStatusChangeNotification = @"nativeLoginStatusChangeNotificationName";
 
-@implementation CTMediator (AccountModule)
+@implementation CCMediator (AccountModule)
 /**
  *登陆(presentViewController)
  **/

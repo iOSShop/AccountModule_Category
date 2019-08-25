@@ -5,5 +5,6 @@ source 'https://github.com/iOSShop/ModularizationPod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AccountModule_Category' do
-  pod 'CTMediator'
+  pod 'CCMediator', :source => 'https://github.com/iOSShop/ModularizationPod.git'
+  pod 'AccountModule', :source => 'https://github.com/iOSShop/ModularizationPod.git'
 end
