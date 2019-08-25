@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "CCMediator" :source => 'https://github.com/iOSShop/ModularizationPod.git'
+  s.dependency "CCMediator"
 
 end
